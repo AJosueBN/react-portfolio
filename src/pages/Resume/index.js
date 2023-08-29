@@ -1,8 +1,12 @@
 import React from 'react'
+import "./style.css"
 
 function Resume() {
   return (
-    <div>Resume</div>
+    <section className='resume'>
+        <h1>Resume</h1>
+        <div></div>
+        </section>
   )
 }
 

@@ -1,8 +1,12 @@
 import React from 'react'
+import "./style.css"
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <section className='contact'>
+        <h1>Contact</h1>
+        <div></div>
+        </section>
   )
 }
 
