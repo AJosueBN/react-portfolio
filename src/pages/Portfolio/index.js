@@ -1,13 +1,27 @@
 import React from 'react'
 import "./style.css"
+import portfolio from "./portfolio.json"
 
 function Portfolio() {
-  return (
-    <section className='portfolio'>
-        <h1>Portfolio</h1>
-        <div></div>
+    return (
+        <section className='portfolio'>
+            <h1>Portfolio</h1>
+            <div>
+                {portfolio.map((data) => {
+                    return (
+                        <div className="card" key={data.title}>
+                            <img src={data.image} alt={data.title} />
+                            <h3>{data.title}</h3>
+                            <div>
+                                <a href={data.github}><button>Repo</button></a>
+                                <a href={data.live}><button>Live</button></a>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
         </section>
-  )
+    )
 }
 
 export default Portfolio
