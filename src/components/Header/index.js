@@ -1,10 +1,14 @@
 import React from 'react'
 import "./style.css"
+import {useContext} from "react"
+import {AppContext} from "../../App"
 
 function Header() {
-
-  const handlePageChange = () => {
-    console.log("working")
+  const {currentPage, setCurrentPage} = useContext(AppContext)
+  
+  const handlePageChange = (event) => {
+    const clicked = event.target.innerHTML;
+    setCurrentPage(clicked)
   }
 
   return (

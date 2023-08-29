@@ -16,7 +16,7 @@ function App() {
     content =  <About />
   }
   if(currentPage === "Portfolio") {
-    <Portfolio />
+    content = <Portfolio />
   }
   if(currentPage === "Resume") {
     content =  <Resume />
