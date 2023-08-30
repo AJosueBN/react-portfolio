@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header>
-        <h1>Josue B-N</h1>
+        <h1>A Josue</h1>
         <nav>
           <ul>
           <li onClick={handlePageChange}>About</li>

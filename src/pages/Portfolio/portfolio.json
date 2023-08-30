@@ -1,13 +1,13 @@
 [
     {
         "title": "Code Refactor - Horiseon",
-        "image": "/images/horiseon.png",
+        "image": "https://github.com/AJosueBN/react-portfolio/blob/main/public/images/horiseon.png?raw=true",
         "github": "https://github.com/AJosueBN/code-refactor-challenge.git",
         "live": "https://ajosuebn.github.io/code-refactor-challenge"
     },
     {
         "title": "Code Quiz",
-        "image": "/images/code-quiz.png",
+        "image": "https://github.com/AJosueBN/react-portfolio/blob/main/public/images/code-quiz.png?raw=true",
         "github": "https://github.com/AJosueBN/code-quiz-challenge.git",
         "live": "https://ajosuebn.github.io/code-quiz-challenge"
     },
@@ -27,6 +27,6 @@
         "title": "Bundl",
         "image": "https://github.com/JackStockwell/bundl/raw/main/public/assets/display/bundl-homepage.png",
         "github": "https://github.com/JackStockwell/bundl.git",
-        "live": "https://jackstockwell.github.io/scranhub/"
+        "live": ""
     }
 ]

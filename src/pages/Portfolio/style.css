@@ -1,7 +1,13 @@
+body {
+    background-color: aqua;
+}
+
 .portfolio h1 {
-    color: rgb(161, 14, 14);
+    color: #EF3E36
+    
 }
 
 .portfolio img {
     width: 20%;
+    
 }
