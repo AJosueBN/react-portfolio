@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <section className='portfolio'>
             <h1>Portfolio</h1>
-            <div>
+            <div className='portfolio-container'>
                 {portfolio.map((data) => {
                     return (
                         <div className="card" key={data.title}>
@@ -17,6 +17,7 @@ function Portfolio() {
                                 <a href={data.live}><button className='live-btn'>Live</button></a>
                             </div>
                         </div>
+                        
                     )
                 })}
             </div>

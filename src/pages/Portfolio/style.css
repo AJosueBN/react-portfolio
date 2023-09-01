@@ -4,39 +4,41 @@ body {
 
 .portfolio h1 {
     color: #EF3E36
-    
 }
 
 
-
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+}
+  
 .card {
     background-color: #322A26;
     border-radius: 8px;
-    margin: 15px;
     padding: 20px;
-    max-width: 300px;
+    max-height: 300px;
     text-align: center;
-     justify-content: center;
-  }
+    margin-right: 10px;
+    margin-left: 10px;
+}
   
-  .card img {
+  
+.card img {
     width: 100%;
-    max-height: 100px auto;
-  }
+}
   
-  .card h3 {
+.card h3 {
     color: #fff;
     font-size: 1.5rem;
-  }
+}
 
-  .button-container {
-    display: flex;
+
+.repo-btn,
+.live-btn {
     justify-content: center;
     margin-top: 15px;
-  }
-  
-  .repo-btn,
-  .live-btn {
     background-color: #EF3E36;
     color: #fff;
     border: none;
@@ -45,11 +47,10 @@ body {
     margin: 0 10px;
     cursor: pointer;
     text-decoration: none;
-    
-  }
-  
-  .repo-btn:hover,
-  .live-btn:hover {
+}
+
+.repo-btn:hover,
+.live-btn:hover {
     background-color: #F4D4B9;
-  }
+}
 
