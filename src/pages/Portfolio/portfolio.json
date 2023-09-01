@@ -12,6 +12,12 @@
         "live": "https://ajosuebn.github.io/code-quiz-challenge"
     },
     {
+        "title": "Note Taker",
+        "image": "https://user-images.githubusercontent.com/129113539/248945064-915189bf-b233-4021-9416-0a50fb57a300.png",
+        "github": "https://github.com/AJosueBN/note-taker-challenge.git",
+        "live": "https://express-note-taking-11-0e1fd379401b.herokuapp.com/"
+    },
+    {
         "title": "Weather Dashboard",
         "image": "https://user-images.githubusercontent.com/129113539/239742283-1f675d8b-1d56-4b86-9843-1e6ad3681f8c.png",
         "github": "https://github.com/AJosueBN/weather-dashboard-challenge",

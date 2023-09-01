@@ -13,8 +13,8 @@ function Portfolio() {
                             <img src={data.image} alt={data.title} />
                             <h3>{data.title}</h3>
                             <div>
-                                <a href={data.github}><button>Repo</button></a>
-                                <a href={data.live}><button>Live</button></a>
+                                <a href={data.github}><button className='repo-btn'>Repo</button></a>
+                                <a href={data.live}><button className='live-btn'>Live</button></a>
                             </div>
                         </div>
                     )

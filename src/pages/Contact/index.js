@@ -14,7 +14,7 @@ function Contact() {
         <div>
         <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Email Address
+        Email Address:
       </label>
       <input
         id="email"

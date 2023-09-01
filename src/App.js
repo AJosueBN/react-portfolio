@@ -8,6 +8,7 @@ import Contact from "./pages/Contact"
 
 export const AppContext = createContext()
 
+// Sets default page to About
 function App() {
   const [currentPage, setCurrentPage] = useState("About")
   let content;
