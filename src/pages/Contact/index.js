@@ -29,6 +29,7 @@ function Contact() {
       <textarea
         id="message"
         name="message"
+        placeholder="message"
       />
       <ValidationError 
         prefix="Message" 
@@ -38,6 +39,14 @@ function Contact() {
       <button type="submit" disabled={state.submitting}>
         Submit
       </button>
+       
+       
+      <div className='github-link'>
+        <p>GitHub</p>
+            <a href='https://github.com/ajosuebn' target='_blank' rel='noopener noreferrer'>
+              <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='GitHub' />
+            </a>
+          </div>
     </form>
         </div>
         </section>

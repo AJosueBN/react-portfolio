@@ -1,4 +1,72 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
 .contact h1 {
     color: #EF3E36;
-
 }
+
+.contact form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+  }
+  
+  .contact button {
+    background-color: #EF3E36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #F15D55;
+  }
+
+  .github-link {
+    text-align: center;
+  }
+
+  .github-link a {
+    color: #F15D55
+  }
+
+  .github-link a:hover {
+    background-color: #EF3E36;
+  }
+
+  .github-link img {
+    width: 100px; /* Adjust the image size as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a smooth transform effect */
+  }
+  
+  .github-link img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  
+
+  
+  
