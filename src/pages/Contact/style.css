@@ -58,13 +58,13 @@
   }
 
   .github-link img {
-    width: 100px; /* Adjust the image size as needed */
+    width: 100px; 
     height: auto;
-    transition: transform 0.3s ease; /* Add a smooth transform effect */
+    transition: transform 0.3s ease; 
   }
   
   .github-link img:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1); 
   }
   
 

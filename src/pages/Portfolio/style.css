@@ -2,6 +2,10 @@ body {
     background-color:  #F4D4B9;
 }
 
+.portfolio {
+    height: 100vh;
+}
+
 .portfolio h1 {
     color: #EF3E36
 }
