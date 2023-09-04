@@ -14,12 +14,13 @@ function Contact() {
         <div>
         <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Email Address:
+  
       </label>
       <input
         id="email"
         type="email" 
         name="email"
+        placeholder="email"
       />
       <ValidationError 
         prefix="Email" 
