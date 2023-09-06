@@ -1,9 +1,38 @@
 .resume {
-    display: flex;
-    align-items: center;
-  }
+    text-align: center; 
+    position: relative; 
+}
 
 .resume h1 {
     color: #EF3E36;
 }
+ 
+.pdf-container {
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+}
+  
+.download-btn {
+    position: absolute; 
+    top: 3%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    cursor: pointer;
+    padding: 10px;
+    background-color: #2B9348;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px
+}
 
+.download-btn:hover {
+    background-color: #37BE5D;
+  }
+  
+.pdf-file {
+    text-align: center;
+}
+  

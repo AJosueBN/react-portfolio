@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./style.css"
 import { Document, Page, pdfjs } from 'react-pdf';
 import PDFFile from '../../assets/react-resume.pdf';
-import { PDFDownloadLink } from '@react-pdf/renderer';
+import { PDFViewer } from '@react-pdf/renderer';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -24,12 +24,14 @@ function Resume() {
   return (
     <section className='resume'>
       <h1>Resume</h1>
+    <div className='pdf-container'>
       <div className="pdf-file">
         <Document file={PDFFile} onLoadSuccess={onDocumentLoadSuccess}>
-          <Page size={{ width: 210, height: 297 }} pageNumber={pageNumber} width={600} />
+         <Page size={{ width: 100, height: 150 }} pageNumber={pageNumber} width={500} />
         </Document>
       </div>
-      <button onClick={downloadPdf}>Download PDF</button>
+      <button className="download-btn" onClick={downloadPdf}>Download PDF</button>
+    </div>
     </section>
   );
 }
