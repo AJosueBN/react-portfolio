@@ -1,4 +1,9 @@
+.resume {
+    display: flex;
+    align-items: center;
+  }
+
 .resume h1 {
     color: #EF3E36;
-
 }
+
