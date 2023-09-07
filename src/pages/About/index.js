@@ -6,6 +6,7 @@ function About() {
     return (
         <section className='about'>
         <h1>About</h1>
+        <div className="about-container">
         <h2>My Name is Josue</h2>
       <div class="summary"> 
         <p>Aspiring software developer that's eager to craft on my skills and gain further experience</p>
@@ -13,6 +14,7 @@ function About() {
         <p>Can browse across this webpage for my projects, resume and can reach out via the contact section</p>
       </div>
         <img src={Image} alt="personal image" />
+        </div>
         </section>
     )
 }

@@ -3,3 +3,22 @@
 
 }
 
+.about h2 {
+    color: #F15D55
+}
+
+.about-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 450px;
+    max-height: 500px;
+    box-shadow: 10px 5px 5px #EF3E36;
+}
+
+.about img {
+    max-width: 500px;
+    max-height: 200px;
+    width: 30%
+}
+
