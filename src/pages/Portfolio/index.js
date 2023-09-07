@@ -1,8 +1,10 @@
+// imported files/libraries
 import React from 'react'
 import "./style.css"
 import portfolio from "./portfolio.json"
 
 function Portfolio() {
+    // Part that renders onto the page
     return (
         <section className='portfolio'>
             <h1>Portfolio</h1>

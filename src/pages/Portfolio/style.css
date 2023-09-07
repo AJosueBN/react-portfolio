@@ -1,11 +1,10 @@
+/* CSS FOR PORTFOLIO PAGE*/
 body {
     background-color:  #F4D4B9;
-
 }
 
 .portfolio {
     height: 100vh;
-    
 }
 
 .portfolio h1 {
@@ -29,6 +28,7 @@ body {
     text-align: center;
     margin-right: 10px;
     margin-left: 10px;
+    box-shadow: 5px 5px black;
 }
   
   

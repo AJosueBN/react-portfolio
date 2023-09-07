@@ -1,3 +1,5 @@
+/* CSS FOR ABOUT PAGE*/
+
 .about h1 {
     color: #EF3E36;
 
@@ -19,6 +21,7 @@
 .about img {
     max-width: 500px;
     max-height: 200px;
-    width: 30%
+    width: 30%;
+    box-shadow: 5px 5px black;
 }
 

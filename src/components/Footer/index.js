@@ -1,8 +1,10 @@
+// imported libraries
 import React from 'react'
 import "./style.css"
 
 
 function Footer() {
+  // Part that renders on the webpage
   return (
     <footer> 
         <h4>React Portfolio </h4>

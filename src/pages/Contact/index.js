@@ -1,13 +1,15 @@
+// imported files/libraries
 import React from 'react'
 import "./style.css"
 import { useForm, ValidationError } from '@formspree/react';
 
+// this part of function returns if validation stage has succeeded
 function Contact() {
   const [state, handleSubmit] = useForm("xnqkdedg");
   if (state.succeeded) {
       return <p>Thanks for contacting me!</p>;
   }
-  
+  // Part that renders onto the page
   return (
     <section className='contact'>
         <h1>Contact</h1>

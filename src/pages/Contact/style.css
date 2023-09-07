@@ -1,9 +1,10 @@
+/* CSS FOR CONTACT PAGE*/
+
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-  }
+}
 
 .contact h1 {
     color: #EF3E36;
@@ -14,15 +15,15 @@
     max-width: 400px;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .contact label {
+.contact label {
     font-weight: bold;
     margin-bottom: 5px;
-  }
+}
   
-  .contact input,
-  .contact textarea {
+.contact input,
+.contact textarea {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -30,9 +31,9 @@
     width: 100%;
     color: black;
     font-family: sans-serif;
-  }
+}
   
-  .contact button {
+.contact button {
     background-color: #EF3E36;
     color: #fff;
     border: none;
@@ -41,33 +42,33 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
-  }
+}
   
-  .contact button:hover {
+.contact button:hover {
     background-color: #F15D55;
-  }
+}
 
-  .github-link {
+.github-link {
     text-align: center;
-  }
+}
 
-  .github-link a {
+.github-link a {
     color: #F15D55
-  }
+}
 
-  .github-link a:hover {
+.github-link a:hover {
     background-color: #EF3E36;
-  }
+}
 
-  .github-link img {
+.github-link img {
     width: 100px; 
     height: auto;
     transition: transform 0.3s ease; 
-  }
+}
   
-  .github-link img:hover {
+.github-link img:hover {
     transform: scale(1.1); 
-  }
+}
   
 
   

@@ -1,7 +1,9 @@
+// imported files/libraries
 import React from 'react'
 import "./style.css"
 import Image from "../../assets/personal-image.jpg"
 
+// Part that renders onto the page
 function About() {
     return (
         <section className='about'>

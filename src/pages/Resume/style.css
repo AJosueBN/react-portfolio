@@ -1,3 +1,5 @@
+/*CSS FOR RESUME PAGE */
+
 .resume {
     text-align: center; 
     position: relative; 
@@ -34,5 +36,6 @@
   
 .pdf-file {
     text-align: center;
+    box-shadow: 10px 5px 5px #EF3E36;
 }
   
