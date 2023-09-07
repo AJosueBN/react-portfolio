@@ -63,3 +63,18 @@ body {
     background-color: #F4D4B9;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .portfolio-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column on smaller screens */
+    }
+
+    .card {
+        margin: 2px; /* Add margin to cards on smaller screens */
+        padding: 50px; /* Add padding to cards on smaller screens */
+        width: 75%;
+        height: 60%;
+    }
+
+    
+}
