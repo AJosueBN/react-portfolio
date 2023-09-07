@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+<p>
+        Download my <a href="https://www.linkedin.com/">resume</a>
+        </p>
