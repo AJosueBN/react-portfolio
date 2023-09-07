@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "./style.css"
 import { Document, Page, pdfjs } from 'react-pdf';
 import PDFFile from '../../assets/react-resume.pdf';
-import { PDFViewer } from '@react-pdf/renderer';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
