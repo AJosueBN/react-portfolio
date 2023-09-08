@@ -10,6 +10,7 @@ Instructions on how to use React further can be found on [React Guidelines](http
 
 # Deployed screenshot of application
 
+![Screenshot 2023-09-08 163241](https://github.com/AJosueBN/react-portfolio/assets/129113539/7797d81f-650e-4cbe-acd2-21812525dedf)
 
 # React Application
 
