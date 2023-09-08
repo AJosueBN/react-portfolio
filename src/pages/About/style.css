@@ -25,3 +25,14 @@
     box-shadow: 5px 5px black;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .about-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .about img {
+        width: 30%;
+    }
+}

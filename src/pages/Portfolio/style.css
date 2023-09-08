@@ -66,14 +66,19 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .portfolio-container {
-        grid-template-columns: repeat(1, 1fr); /* Single column on smaller screens */
+        grid-template-columns: repeat(1, 1fr); 
+        flex-direction: column;
+        padding: 50px;
+        position: relative;
+        top: -50px; /* Adjust the top value to move it upwards */
+        
     }
 
     .card {
-        margin: 2px; /* Add margin to cards on smaller screens */
-        padding: 50px; /* Add padding to cards on smaller screens */
-        width: 75%;
-        height: 60%;
+        margin: 10px auto; 
+        padding: 20px;
+        width: 70%; 
+        max-height: 80%; 
     }
 
     
