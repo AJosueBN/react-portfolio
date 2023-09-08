@@ -68,9 +68,9 @@ body {
     .portfolio-container {
         grid-template-columns: repeat(1, 1fr); 
         flex-direction: column;
-        padding: 50px;
+        padding: 55px;
         position: relative;
-        top: -50px; /* Adjust the top value to move it upwards */
+        top: -50px; 
         
     }
 
