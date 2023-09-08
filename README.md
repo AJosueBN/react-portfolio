@@ -1,6 +1,6 @@
 # REACT-PORTFOLIO
 
-This portfolio is based around projects that I have created or collaborated on, using the React skills I've learned to use the latest and updated technologies.
+This portfolio is based around projects that I have created or collaborated on, using the skills I've learned in general using React to implement the latest and updated technologies.
 
 Built a single-page reloaded application with project samples and other relevant details within the webpage.
 
